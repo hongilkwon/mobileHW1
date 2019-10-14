@@ -25,17 +25,16 @@
   [테스트 환경]
 1. 안드로이드 스튜디오 SDK (Tools -> SDK Manager로 확인)
    - SDK 플랫폼 : 9.0(Pie)
-   
-    minSdkVersion 23
-    targetSdkVersion 28
-    compileSdkVersion 28
-    buildToolsVersion "29.0.2"
-    Intel x86 Emulator Accelerator (HXAM Installer)
+   - minSdkVersion 23
+   - targetSdkVersion 28
+   - compileSdkVersion 28
+   - buildToolsVersion "29.0.2"
+   - Intel x86 Emulator Accelerator (HXAM Installer)
    
 2. JDK-10.0.2 (명령어창(cmd)에서 c:\ java -version으로 확인)
-  java version "1.8.0_201"
-  Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
-  Java HotSpot(TM) 64-Bit Server VM (build 25.201-b09, mixed mode)
+  - java version "1.8.0_201"
+  - Java(TM) SE Runtime Environment (build 1.8.0_201-b09)
+  - Java HotSpot(TM) 64-Bit Server VM (build 25.201-b09, mixed mode)
 
   
 3. 안드로이드 스튜디오 실행 환경
