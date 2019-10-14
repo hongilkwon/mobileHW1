@@ -9,8 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
 
     private int nextToDoNum;
 
+
+    private Switch aSwitch;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +61,22 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         toDoTitle = findViewById(R.id.titleEditText);
         toDoContents = findViewById(R.id.contentsEditText);
+
+
+
+        aSwitch = findViewById(R.id.aswitch);
+        aSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked==true){
+                    listView.setVisibility(View.VISIBLE);
+                }else{
+
+                    listView.setVisibility(View.INVISIBLE);
+
+                }
+            }
+        });
 
         //리스트뷰에 어뎁터 설정
          adapter = new ListAdapter();
