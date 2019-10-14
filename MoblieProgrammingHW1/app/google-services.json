@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "574388387330",
+    "firebase_url": "https://moblieprogramminghw1.firebaseio.com",
+    "project_id": "moblieprogramminghw1",
+    "storage_bucket": "moblieprogramminghw1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574388387330:android:bc8f8a556679881ca2311b",
+        "android_client_info": {
+          "package_name": "com.example.moblieprogramminghw1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574388387330-bk494kn4sglgf0jufqn4gamrtasrjm50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moblieprogramminghw1",
+            "certificate_hash": "335aba2e497bd53b42e2e3c528f172efcb681bc9"
+          }
+        },
+        {
+          "client_id": "574388387330-aoeh12ngdp69q9pcibjb5llfoqn2mirf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApxEESEDLxqsoD1nethARrH8Qgd6fKIq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574388387330-aoeh12ngdp69q9pcibjb5llfoqn2mirf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
