@@ -17,6 +17,6 @@
 - 첫번째 페이지에서 ID, 비밀번호 입력 시 정상이고 로그인 버튼 클릭 시 화면 출력
 - 세번째 화면을 간단한 기능을 수행하도록 구성 ----> 할일을 저장하는 메모장 구현.
 - View을 상속한 여러가지 위젯을 사용하여 화면을 구성(기능에 맞는 위젯 선택하여 구성)
-  View Group을 상속한 위젯 ListView, AdapterView, ToolBar 등
-  Text View을 상속한 CheckBox, Switch, ToggleButton, RadioButton 등
+  View Group을 상속한 위젯 ListView, AdapterView
+  Text View을 상속한 CheckBox, Switch 
   ImageView, ImageButton 등
